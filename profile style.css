@@ -1,0 +1,469 @@
+
+
+
+
+h1,h2,h3,h4,h5,h6{font-family:arial-black;}
+*{margin:0;padding:0;}
+
+body{
+	font-size:17px;
+}
+
+
+
+.container{
+	width:1160px;
+	margin:auto;
+	display:block;
+}
+header {
+    box-shadow: 0px 5px 19px 2px #a9a9a9;
+    overflow: hidden;
+    height: 60px;
+}
+.topBarWrapper {
+    overflow: hidden;
+}
+.topLogo img {
+    width: 170px;
+    float: left;
+    display: inline;
+}
+
+.menulist {
+    float: right;
+}
+
+.menulist ul {
+    list-style: none;
+}
+
+.menulist ul li {
+	float: left;
+	margin: 25px 26px;
+}
+
+.menulist ul li a {
+    text-decoration: none;
+    color: #797979;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: 550;
+}
+.menulist ul li a:hover{
+	color:black;
+}
+.menulist ul li:active {
+    transform: scale(1.3);
+    transition: .1s;
+}
+section#myPhoto {
+    background: url(bg.jpg);
+    background-size: cover;
+    height: 550px;
+}
+.photo {
+    float: left;
+}
+.aboutWrapper {
+    overflow: hidden;
+}
+
+.pMeta {
+    float: left;
+    width: 50%;
+}
+.pMeta span {
+    font-family: arial;
+    font-weight: 600;
+    color: #615f5f;
+}
+.pMeta h1 {
+    font-size: 65px;
+    font-family: system-ui;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.pMeta h2 {
+    color: #565656;
+    font-family: arial;
+    font-weight: 200;
+}
+.Btn button {
+	padding: 12px;
+	margin: 0px 12px;
+	color: white;
+	background: black;
+	border-radius: 13px;
+	outline: none;
+	font-size: 14px;
+	font-weight: bold;
+	box-shadow: 3px 5px 6px #828282;
+}
+.Btn button:first-child {
+    background: #ececec;
+    color: black;
+    width: 120px;
+}
+.Btn button:hover {
+	cursor:pointer;
+	
+}
+.Btn button:active {
+    background: linear-gradient(#000000ab,#ffffffd1);
+}
+
+section#myPhoto {
+    background: url(bg.jpg);
+    background-size: cover;
+    height: 550px;
+    overflow: hidden;
+    box-shadow: inset 0 4px 14px 0px #737373;
+}
+.photo img {
+    width: 300px;
+    transition:1s;
+    transform: translate(0px, 25px);
+}
+.photo img:hover {
+	transform:scale(1.1);
+}
+
+
+
+
+/*this is for my about */
+
+section#aboutBox {
+    position: relative;
+    margin-top: -51px;
+}
+.aboutWrapper {
+    overflow: hidden;
+    border-radius: 15px;
+    height: 321px;
+    box-shadow: 0px 0px 19px 5px black;
+    background: white;
+	transition: .5s;
+}
+
+.aboutWrapper:hover {
+    transform: scale(1.05);
+    
+}
+.sortPhoto {
+    width: 40%;
+    float: left;
+}
+
+.sortPhoto img {
+    width: 180px;
+    margin: 45px 122px;
+    box-shadow: 0px 0px 5px 0px #53ff47;
+}
+
+.aboutInfo {
+    width: 60%;
+    float: right;
+}
+.aboutInfo h1 {
+    font-size: 28px;
+    font-family: arial;
+    color: #716d6d;
+    margin: 35px 0px 0px 0px;
+}
+
+.aboutInfo h3 {
+    font-family: arial;
+    font-size: 17px;
+    color: black;
+    margin: 8px 0px;
+}
+
+.aboutInfo p {
+    font-size: 16px;
+    color: #a29e9e;
+    text-align: justify;
+    margin: 0px 110px 10px 0px;
+}
+
+
+
+/*services*/
+
+section#service {
+    margin: 60px 0px;
+}
+.heading h1 {
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial;
+	text-transform: uppercase;
+	color: #636161;
+	margin: 10px 0px;
+}
+
+.normalWrapper {
+    overflow: hidden;
+}
+
+.heading {
+    margin: auto;
+}
+.heading p {
+    color: #b1b1b1;
+    font-family: arial;
+    font-size: small;
+    text-align: center;
+    margin: 20px;
+}
+.heading h1:before {
+	content: "";
+	border-bottom: 4px solid black;
+	width: 60px;
+	position: absolute;
+	top: 35px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.singleBox {
+    background: #000000e0;
+    color: white;
+    padding: 30px;
+    width: 230px;
+    overflow: hidden;
+    float: left;
+    margin: 15px 48px;
+    border-radius: 3px;
+}
+
+.singleBox span {
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin: auto;
+    width: 20px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 20px;
+}
+.singleBox h2 {
+    font-family: arial;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.singleBox p {
+    font-size: 14px;
+    color: #a2a2a2;
+    font-family: cursive;
+    text-align: center;
+}
+.Lbtn a {
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin: auto;
+    display: block;
+    width: 94px;
+    margin-top: 15px;
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+}
+.Lbtn a:hover{
+	background: #bbb9b9;
+}
+
+.Lbtn {
+    width: 100%;
+}
+.singleBox:hover {
+    background: #e4e4e4;
+    color: #424242;
+    transition: .2s;
+}
+section#idea {
+    background: #1d1d1d;
+}
+
+.Iwrapper {
+    overflow: hidden;
+}
+
+.Iwrapper h2 {
+    color: #e0e0e0;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: arial;
+}
+.Iwrapper p {
+    color: #adacac;
+    font-size: small;
+    text-align: center;
+    font-family: cursive;
+    margin: 20px;
+}
+.Iwrapper button {
+    color: black;
+    background: white;
+    width: 180px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 550;
+    margin: auto;
+    display: block;
+	transition:.1s;
+}
+.Iwrapper button:hover {
+	background:#bdbcbc;
+	cursor:pointer;
+}
+.Iwrapper button:active{
+	transform:scale(1.1);
+}
+
+
+/*this is for footer*/
+	
+.fWrapper {
+    overflow: hidden;
+    margin: 50px 0px;
+}
+
+.fWrapper h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: arial;
+    color: #696666;
+}
+
+.fWrapper p {
+    text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+    text-decoration: underline;
+    color: #989898;
+    margin: 20px 0px;
+}	
+	
+.socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcon ul li {
+	float: left;
+	margin: 0px 10px;
+}
+
+.socialIcon ul li a {
+    color: black;
+    background: #e0e0e0;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    text-decoration: none;
+    width: 10px;
+	transition:.4s;
+}
+.socialIcon ul li a:hover{
+	transform: rotate(360deg);
+}
+.socialIcon ul li:first-child:hover a{
+	color:#3b5998;	
+}
+.socialIcon ul li:nth-child(2):hover a{
+	color:#EC6C2F;	
+}
+.socialIcon ul li:nth-child(3):hover a{
+	color:#00acee;	
+}
+.socialIcon ul li:last-child:hover a{
+	color:red;	
+}
+
+
+.socialIcon ul {
+    list-style: none;
+}
+span.copy {
+	font-family: sans-serif;
+	margin: 0px 20px;
+	padding: 10px;
+	color: #b24346;
+	font-size: 13px;
+}
+	
+/* finished*/	
+	
+ 
+	
+	
+	/* akhan theke sob gula side box er jonno */
+	
+section#socalbox {
+    position: fixed;
+    top: 263px;
+    right: 5px;
+}	
+	
+section#socalbox ul li a {
+    color: #444441;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    margin: 2px 1px;
+    background: #e0dbdb;
+    text-decoration: none;
+}
+
+section#socalbox ul {
+    list-style: none;
+}
+
+
+section#socalbox ul li:hover{
+    transform: translate(-10px);
+}
+
+section#socalbox ul li{transition:.3s;}
+	
+section#socalbox ul li:first-child:hover a{
+    color:blue;
+	
+}	
+section#socalbox ul li:nth-child(2):hover a{
+    color:#EC6C2F;
+	
+}
+section#socalbox ul li:nth-child(3):hover a{
+    color:#00acee;
+	
+}
+section#socalbox ul li:last-child:hover a{
+    color:red;
+	
+}
+	
+	
+	
+	
+	
+	
+	
